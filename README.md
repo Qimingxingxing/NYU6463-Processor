@@ -34,7 +34,7 @@ Single button is to control whether it is in single instruction stepping mode or
 
 **Block Diagram:**
 
-![WechatIMG2](https://github.com/Qimingxingxing/NYU6463-Processor/blob/master/Users/Shane/Documents/NYU/AHD/Final%20Project/block.jpeg)
+![WechatIMG2](https://github.com/Qimingxingxing/NYU6463-Processor/blob/master/block.jpeg)
 
 **GROUP MEMBER**
 
