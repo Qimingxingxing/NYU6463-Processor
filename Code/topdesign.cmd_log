@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+par -w -intstyle ise -ol high -mt off topdesign_map.ncd topdesign.ncd topdesign.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topdesign.twx topdesign.ncd -o topdesign.twr topdesign.pcf -ucf final.ucf 
+bitgen -intstyle ise -f topdesign.ut topdesign.ncd 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+par -w -intstyle ise -ol high -mt off topdesign_map.ncd topdesign.ncd topdesign.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topdesign.twx topdesign.ncd -o topdesign.twr topdesign.pcf -ucf final.ucf 
+bitgen -intstyle ise -f topdesign.ut topdesign.ncd 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+par -w -intstyle ise -ol high -mt off topdesign_map.ncd topdesign.ncd topdesign.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topdesign.twx topdesign.ncd -o topdesign.twr topdesign.pcf -ucf final.ucf 
+bitgen -intstyle ise -f topdesign.ut topdesign.ncd 
+bitgen -intstyle ise -f topdesign.ut topdesign.ncd 
+xst -intstyle ise -ifn "F:/FPGA/GUOYUANFPGA/topdesign.xst" -ofn "F:/FPGA/GUOYUANFPGA/topdesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc final.ucf -p xc7a100t-csg324-3 topdesign.ngc topdesign.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topdesign_map.ncd topdesign.ngd topdesign.pcf 
+par -w -intstyle ise -ol high -mt off topdesign_map.ncd topdesign.ncd topdesign.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topdesign.twx topdesign.ncd -o topdesign.twr topdesign.pcf -ucf final.ucf 
+bitgen -intstyle ise -f topdesign.ut topdesign.ncd 
