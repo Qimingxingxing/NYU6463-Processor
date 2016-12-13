@@ -34,7 +34,7 @@ Single button is to control whether it is in single instruction stepping mode or
 
 **Block Diagram:**
 
-![WechatIMG2](/Users/Shane/Documents/NYU/AHD/Final Project/WechatIMG2.jpeg)
+![WechatIMG2](/Users/Shane/Documents/NYU/AHD/Final Project/block.jpeg)
 
 **GROUP MEMBER**
 
