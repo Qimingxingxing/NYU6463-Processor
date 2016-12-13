@@ -2,7 +2,9 @@
 
 **OBJECTIVES**
 
-We implemented the NYU-6463 Processor which has three instruction types: (a) R-Type for arithmetic instructions
+We implemented the NYU-6463 Processor which has three instruction types: 
+
+(a) R-Type for arithmetic instructions
 
 (b) I-Type for immediate value operations, load and store instructions
 
