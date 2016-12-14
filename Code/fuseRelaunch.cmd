@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "F:/FPGA/GUOYUANFPGA/InstructionMem_isim_beh.exe" -prj "F:/FPGA/GUOYUANFPGA/InstructionMem_beh.prj" "work.InstructionMem" 
