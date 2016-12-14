@@ -2,7 +2,7 @@
 
 **DEMO VIDEO**
 
-[](https://youtu.be/lK__Iir7Azc)
+[Click to Watch](https://youtu.be/lK__Iir7Azc)
 
 **OBJECTIVES**
 
